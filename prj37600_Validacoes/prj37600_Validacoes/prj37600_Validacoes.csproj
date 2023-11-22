@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cls37600Validacoes.cs" />
     <Compile Include="frm37600_Validacoes.cs">
       <SubType>Form</SubType>
     </Compile>
