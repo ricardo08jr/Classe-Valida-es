@@ -1,0 +1,11 @@
+C:\Users\aluno\Desktop\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\bin\Debug\prj37600_Validacoes.exe.config
+C:\Users\aluno\Desktop\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\bin\Debug\prj37600_Validacoes.exe
+C:\Users\aluno\Desktop\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\bin\Debug\prj37600_Validacoes.pdb
+C:\Users\aluno\Desktop\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\obj\Debug\prj37600_Validacoes.csproj.AssemblyReference.cache
+C:\Users\aluno\Desktop\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\obj\Debug\prj37600_Validacoes.csproj.SuggestedBindingRedirects.cache
+C:\Users\aluno\Desktop\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\obj\Debug\prj37600_Validacoes.frm37600_Validacoes.resources
+C:\Users\aluno\Desktop\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\obj\Debug\prj37600_Validacoes.Properties.Resources.resources
+C:\Users\aluno\Desktop\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\obj\Debug\prj37600_Validacoes.csproj.GenerateResource.cache
+C:\Users\aluno\Desktop\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\obj\Debug\prj37600_Validacoes.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\obj\Debug\prj37600_Validacoes.exe
+C:\Users\aluno\Desktop\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\obj\Debug\prj37600_Validacoes.pdb
