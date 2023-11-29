@@ -32,6 +32,7 @@ namespace prj37600_Validacoes
         {
             cmbValidacoes.SelectedIndex = 0;
             lblValidacao.Text = cmbValidacoes.Text;
+            KeyPreview = true;
         }
         #endregion
 
@@ -39,6 +40,8 @@ namespace prj37600_Validacoes
         private void cmbValidacoes_SelectedIndexChanged(object sender, EventArgs e)
         {
             lblValidacao.Text = cmbValidacoes.Text;
+            lblSituacao.Text = "Situação";
+            lblSituacao.ForeColor = Color.Black;
         }
         #endregion
 
@@ -46,7 +49,14 @@ namespace prj37600_Validacoes
         private void btnValidar_Click(object sender, EventArgs e)
         {
             bool valido = false;
-            int cont = 0;
+
+            if (String.IsNullOrEmpty(txtValidar.Text))
+            {
+                MessageBox.Show("Digite Alguma coisa", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+          
 
             switch (cmbValidacoes.SelectedIndex)
             {
@@ -69,6 +79,7 @@ namespace prj37600_Validacoes
                     valido = Cls37600Validacoes.RG(txtValidar.Text);
                     break;
                 case 6:
+                    txtValidar.Text = txtValidar.Text.PadLeft(13, '0');
                     valido = Cls37600Validacoes.TituloEleitor(txtValidar.Text);
                     break;
 
@@ -86,5 +97,13 @@ namespace prj37600_Validacoes
             }
         }
         #endregion
+
+        private void txtValidar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!((e.KeyChar> 47 && e.KeyChar<58) || e.KeyChar == 8))
+            {
+                e.KeyChar = Convert.ToChar(0);
+            }
+        }
     }
 }

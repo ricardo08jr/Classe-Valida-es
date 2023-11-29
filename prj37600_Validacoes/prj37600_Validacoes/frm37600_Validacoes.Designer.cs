@@ -41,6 +41,7 @@
             this.txtValidar.Name = "txtValidar";
             this.txtValidar.Size = new System.Drawing.Size(175, 20);
             this.txtValidar.TabIndex = 0;
+            this.txtValidar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValidar_KeyPress);
             // 
             // btnValidar
             // 

@@ -9,3 +9,14 @@ C:\Users\aluno\Desktop\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\
 C:\Users\aluno\Desktop\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\obj\Debug\prj37600_Validacoes.csproj.CoreCompileInputs.cache
 C:\Users\aluno\Desktop\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\obj\Debug\prj37600_Validacoes.exe
 C:\Users\aluno\Desktop\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\obj\Debug\prj37600_Validacoes.pdb
+D:\2N1\DSO\4 Bimestre\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\bin\Debug\prj37600_Validacoes.exe.config
+D:\2N1\DSO\4 Bimestre\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\bin\Debug\prj37600_Validacoes.exe
+D:\2N1\DSO\4 Bimestre\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\bin\Debug\prj37600_Validacoes.pdb
+D:\2N1\DSO\4 Bimestre\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\obj\Debug\prj37600_Validacoes.csproj.AssemblyReference.cache
+D:\2N1\DSO\4 Bimestre\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\obj\Debug\prj37600_Validacoes.csproj.SuggestedBindingRedirects.cache
+D:\2N1\DSO\4 Bimestre\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\obj\Debug\prj37600_Validacoes.frm37600_Validacoes.resources
+D:\2N1\DSO\4 Bimestre\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\obj\Debug\prj37600_Validacoes.Properties.Resources.resources
+D:\2N1\DSO\4 Bimestre\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\obj\Debug\prj37600_Validacoes.csproj.GenerateResource.cache
+D:\2N1\DSO\4 Bimestre\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\obj\Debug\prj37600_Validacoes.csproj.CoreCompileInputs.cache
+D:\2N1\DSO\4 Bimestre\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\obj\Debug\prj37600_Validacoes.exe
+D:\2N1\DSO\4 Bimestre\Classe-Valida-es\prj37600_Validacoes\prj37600_Validacoes\obj\Debug\prj37600_Validacoes.pdb
