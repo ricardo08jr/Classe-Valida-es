@@ -98,6 +98,7 @@ namespace prj37600_Validacoes
         }
         #endregion
 
+        #region Key Press
         private void txtValidar_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!((e.KeyChar> 47 && e.KeyChar<58) || e.KeyChar == 8))
@@ -105,5 +106,6 @@ namespace prj37600_Validacoes
                 e.KeyChar = Convert.ToChar(0);
             }
         }
+        #endregion
     }
 }

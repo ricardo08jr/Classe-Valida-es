@@ -8,6 +8,7 @@ using System.Windows.Forms;
 
 public static class Cls37600Validacoes
 {
+    
     /// <summary>
     /// Metodo para verificar cartão de 16 digitos com a entrada de uma string
     /// </summary>
@@ -81,6 +82,9 @@ public static class Cls37600Validacoes
         #endregion
     }
 
+    /// <summary>
+    /// Metodo para verificar CNH de 11 digitos com a entrada de uma string
+    /// </summary>
     public static bool CNH(String CNH)
     {
         #region Validação
@@ -164,6 +168,9 @@ public static class Cls37600Validacoes
 
     }
 
+    /// <summary>
+    /// Metodo para verificar CNPJ de 14 digitos com a entrada de uma string
+    /// </summary>
     public static bool CNPJ(String CNPJ)
     {
         #region Validação
@@ -243,6 +250,9 @@ public static class Cls37600Validacoes
         #endregion
     }
 
+    /// <summary>
+    /// Metodo para verificar CPF de 11 digitos com a entrada de uma string
+    /// </summary>
     public static bool CPF(String CPF)
     {
         #region Validação de Tamanho
@@ -339,6 +349,9 @@ public static class Cls37600Validacoes
         }
     }
 
+    /// <summary>
+    /// Metodo para verificar Pis Pasep de 11 digitos com a entrada de uma string
+    /// </summary>
     public static bool PisPasep(String PisPasep)
     {
         #region Validação de Tamanho
@@ -386,6 +399,9 @@ public static class Cls37600Validacoes
         #endregion
     }
 
+    /// <summary>
+    /// Metodo para verificar RG de 9 digitos com a entrada de uma string
+    /// </summary>
     public static bool RG(String RG)
     {
         #region Validação
@@ -437,6 +453,9 @@ public static class Cls37600Validacoes
         #endregion
     }
 
+    /// <summary>
+    /// Metodo para verificar Titulo de Eleitor de 13 digitos com a entrada de uma string
+    /// </summary>
     public static bool TituloEleitor(String titulo)
     {
         #region Validação
@@ -556,6 +575,7 @@ public static class Cls37600Validacoes
         #endregion
     }
 
+   
     public static bool VerificarTodosIguais(string numero)
     {
         for (int i = 1; i < numero.Length; i++)
