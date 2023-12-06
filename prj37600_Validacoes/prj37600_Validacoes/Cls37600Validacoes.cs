@@ -461,7 +461,7 @@ public static class Cls37600Validacoes
         #region Validação
         if (!(titulo.Length == 13))
         {
-            MessageBox.Show("Digite 9 dígitos", "erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show("Digite 13 dígitos", "erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             return false;
         }
         #endregion

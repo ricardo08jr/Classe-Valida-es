@@ -28,20 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtValidar = new System.Windows.Forms.TextBox();
             this.btnValidar = new System.Windows.Forms.Button();
             this.lblValidacao = new System.Windows.Forms.Label();
             this.lblSituacao = new System.Windows.Forms.Label();
             this.cmbValidacoes = new System.Windows.Forms.ComboBox();
+            this.txtValidar = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
-            // 
-            // txtValidar
-            // 
-            this.txtValidar.Location = new System.Drawing.Point(25, 31);
-            this.txtValidar.Name = "txtValidar";
-            this.txtValidar.Size = new System.Drawing.Size(175, 20);
-            this.txtValidar.TabIndex = 0;
-            this.txtValidar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValidar_KeyPress);
             // 
             // btnValidar
             // 
@@ -91,16 +83,25 @@
             this.cmbValidacoes.TabIndex = 4;
             this.cmbValidacoes.SelectedIndexChanged += new System.EventHandler(this.cmbValidacoes_SelectedIndexChanged);
             // 
+            // txtValidar
+            // 
+            this.txtValidar.Location = new System.Drawing.Point(25, 31);
+            this.txtValidar.Name = "txtValidar";
+            this.txtValidar.Size = new System.Drawing.Size(175, 20);
+            this.txtValidar.TabIndex = 5;
+            this.txtValidar.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
+            this.txtValidar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValidar_KeyPress);
+            // 
             // frm37600_Validacoes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(337, 96);
+            this.Controls.Add(this.txtValidar);
             this.Controls.Add(this.cmbValidacoes);
             this.Controls.Add(this.lblSituacao);
             this.Controls.Add(this.lblValidacao);
             this.Controls.Add(this.btnValidar);
-            this.Controls.Add(this.txtValidar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -115,12 +116,11 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox txtValidar;
         private System.Windows.Forms.Button btnValidar;
         private System.Windows.Forms.Label lblValidacao;
         private System.Windows.Forms.Label lblSituacao;
         private System.Windows.Forms.ComboBox cmbValidacoes;
+        private System.Windows.Forms.MaskedTextBox txtValidar;
     }
 }
 
