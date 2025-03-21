@@ -1,0 +1,10 @@
+CREATE TABLE `activities` (
+      `activity_id` int(10) UNSIGNED NOT NULL,
+      `page_id` int(10) UNSIGNED NOT NULL,
+      `category_id` int(10) UNSIGNED NOT NULL,
+      `user_id` int(11) DEFAULT NULL,
+      `title` varchar(256) NOT NULL,
+      `description` text NOT NULL,
+      `follow_date` datetime DEFAULT NULL,
+      `follow_message` text,
+      `status` enum('created','pending','completed') NOT NULL DEFAULT 'created',
